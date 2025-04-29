@@ -1,0 +1,10 @@
+dbms.backup.enabled=true
+dbms.backup.address=127.0.0.1:6362
+dbms.connector.bolt.address=127.0.0.1:7687
+dbms.connector.http.address=127.0.0.1:7474
+dbms.connector.https.address=127.0.0.1:7473
+dbms.mode=HA
+ha.server_id=1
+ha.initial_hosts=127.0.0.1:5001,127.0.0.1:5002,127.0.0.1:5003
+ha.host.coordination=127.0.0.1:5001
+ha.host.data=127.0.0.1:6001
